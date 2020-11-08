@@ -1,8 +1,8 @@
-# emobeam
+# Postgres to Rabbit pipeline
 
 ## Raison d'être
 
-TODO: your project description
+Scio pipeline to ingest a streaming Postgres queue and send it to a RabbitMQ exchange
 
 ## Features
 
