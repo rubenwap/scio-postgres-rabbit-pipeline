@@ -23,8 +23,8 @@ object PosRabbit {
    
     val db = JdbcIO.DataSourceConfiguration
       .create("org.postgresql.Driver", "jdbc:postgresql://ec2-23-21-115-109.compute-1.amazonaws.com/d5uruq2ffeev6a")
-      .withUsername("jfkhimgzvavcmg")
-      .withPassword("e21ba33872db1d0f6d3e381e985f307d43f49414f95e0954f931c7cc11ec07c4")
+      .withUsername("")
+      .withPassword("")
     
     val readFromDb = JdbcIO
       .read[Movie]()
